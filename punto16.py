@@ -14,7 +14,6 @@ def dft(yk,N):
 manchas = np.loadtxt("monthrg.dat")
 tiempo = manchas[:,0] + manchas[:,1]/12
 numero = manchas[:,3]
-
 numero = numero[tiempo>1900]
 tiempo = tiempo[tiempo>1900]
 
